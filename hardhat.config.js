@@ -10,7 +10,7 @@ module.exports = {
     arbitrumSepolia: {
       url: 'https://sepolia-rollup.arbitrum.io/rpc',
       chainId: 421614,
-      accounts: [process.env.SEPOLIA_TESTNET_PRIVATE_KEY],
+      accounts: process.env.SEPOLIA_TESTNET_PRIVATE_KEY,
     },
     arbitrumOne: {
       url: 'https://arb1.arbitrum.io/rpc',
