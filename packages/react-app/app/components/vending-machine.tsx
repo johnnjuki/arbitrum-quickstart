@@ -1,3 +1,6 @@
+// NB: There're unfixed bugs in this file.
+// This was for learning purposes.
+
 "use client";
 
 import { ethers} from 'ethers';
